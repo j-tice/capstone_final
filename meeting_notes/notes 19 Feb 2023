@@ -1,0 +1,47 @@
+Sensor Data
+- Rename column titles. The Date Time column has a whitespace at the end
+    - Column Names = 'Chemical', 'Monitor', 'Date_Time', 'Reading'
+- Need to convert the date time column to datetime in order to create visualizations
+    - Also set the Date_Time column to
+
+
+Visualize Sensor Data based on the Sensor.
+- Created separate DFs for each sensor
+    - Determined the mean and standard deviation for each sensor. 
+    - Graphed 'ALL' sensor data revealing 3 months of interest:
+        - 2016-04
+            - Horizonal line placed at mean + 3 std. This creates what will be determined to be a significant increase in chemical presence in the air (This could be a high cutoff but gives us a starting point)
+        - 2016-08
+        - 2016-12
+- Created 3 separate data frames based on these 3 months.
+    - Interesting Trends
+        - 2016-04
+            - 8th
+                - Sensor 3: Methylosmolene
+            - 16th
+                - Sensor 1: Chlorodinine
+            - 17th
+                - Sensor 2: Methylosmolene
+                - Sensor 3: AGOC-3A & Methylosmolene
+            - 26th
+                - Sensor 1: Appluimonia
+        - 2016-08
+            - 1st
+                - Sensor 2: AGOC-3A
+            - 2nd 
+                - Sensor 1: AGOC-3A, Appluimonia & Chlorodinine
+                - Sensor 2: AGOC-3A, Chlorodinine & Methylosmolene
+            - 20th
+                - Sensor 1: Appluimonia
+                - Sensor 2: AGOC-3A, Chlorodinine & Methylosmolene
+        - 2016-12
+            - 5th
+                - Sensor 1: AGOC-3A
+                - Sensor 2: AGOC-3A
+            - 7th
+                - Sensor 1: AGOC-3A & Methylosmolene
+
+- Some other ideas:
+    - Can we visualize the sensor locations on a map?
+    - If so, can we also plot the locations of the highest concentrations of chemicals
+    
