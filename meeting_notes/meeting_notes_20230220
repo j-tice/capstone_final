@@ -1,0 +1,39 @@
+Questions To Answer:
+    - Characterize the sensors’ performance and operation. Are they all working properly at all times? 
+      Can you detect any unexpected behaviors of the sensors through analyzing the readings they capture?
+    
+    - Now turn your attention to the chemicals themselves. Which chemicals are being detected by the sensor group? 
+      What patterns of chemical releases do you see, as being reported in the data? 
+
+        - In order to determine if a significant increase is being detected by each sensor, the mean of all readings in the 
+          sensor group was calculated, then the cutoff for significance was assigned as the mean + ( 3 * standard deviation).
+            - Need a justification for why we chose to do this:
+
+            - This may restrict the data more than we need it to. We might should calculate the mean of all readings PER CHEMICAL,
+              then assign the cutoff for each chemical.
+
+        - Chemicals Detected:
+            - AGOC-3A:
+                - Sensors 
+            - Appluimonia:
+                - Sensors
+            - Chlorodinine:
+                - Sensors
+            - Methylosmolene:
+                - Sensors
+
+    - Which factories are responsible for which chemical releases? Carefully describe how you determined this using 
+      all the data you have available. For the factories you identified, describe any observed patterns of operation 
+      revealed in the data.
+
+
+
+Data Preparation:
+    - Sensor Data:
+        - Rename column titles. The Date Time column has a whitespace at the end.
+        - Need to convert the date time column to datetime in order to create visualizations.
+        - Set the datetime as the index. This will make it easier to parse the data when looking to filter out certain dates.
+
+    - Meteorological Data:
+        - Remove 'Unnamed 3' Column
+        - In the elevation column, we need to add 370.0 to each record (I am assuming the elevation for each is 370.0??)
