@@ -74,3 +74,7 @@ Data Preparation:
     - Meteorological Data:
         - Remove 'Unnamed 3' Column
         - In the elevation column, we need to add 370.0 to each record (I am assuming the elevation for each is 370.0??)
+          Or do we even need this data? We can remove this column as well?
+    
+    - Company/Sensor Locations:
+        - Create a pandas dataframe by hand from the word document provided (MC2 Data Descriptions)
