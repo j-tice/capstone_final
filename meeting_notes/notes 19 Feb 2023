@@ -14,32 +14,15 @@ Visualize Sensor Data based on the Sensor.
         - 2016-08
         - 2016-12
 - Created 3 separate data frames based on these 3 months.
-    - Interesting Trends
-        - 2016-04
-            - 8th
-                - Sensor 3: Methylosmolene
-            - 16th
-                - Sensor 1: Chlorodinine
-            - 17th
-                - Sensor 2: Methylosmolene
-                - Sensor 3: AGOC-3A & Methylosmolene
-            - 26th
-                - Sensor 1: Appluimonia
-        - 2016-08
-            - 1st
-                - Sensor 2: AGOC-3A
-            - 2nd 
-                - Sensor 1: AGOC-3A, Appluimonia & Chlorodinine
-                - Sensor 2: AGOC-3A, Chlorodinine & Methylosmolene
-            - 20th
-                - Sensor 1: Appluimonia
-                - Sensor 2: AGOC-3A, Chlorodinine & Methylosmolene
-        - 2016-12
-            - 5th
-                - Sensor 1: AGOC-3A
-                - Sensor 2: AGOC-3A
-            - 7th
-                - Sensor 1: AGOC-3A & Methylosmolene
+    - Which Sensors are detecting each chemical?
+        - AGOC-3A:
+            - Sensors 
+        - Appluimonia:
+            - Sensors
+        - Chlorodinine:
+            - Sensors
+        - Methylosmolene:
+             - Sensors
 
 - Some other ideas:
     - Can we visualize the sensor locations on a map?

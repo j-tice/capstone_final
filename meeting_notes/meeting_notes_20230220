@@ -9,23 +9,60 @@ Questions To Answer:
           sensor group was calculated, then the cutoff for significance was assigned as the mean + ( 3 * standard deviation).
             - Need a justification for why we chose to do this:
 
-            - This may restrict the data more than we need it to. We might should calculate the mean of all readings PER CHEMICAL,
+            - NOTE: This may restrict the data more than we need it to. We might should calculate the mean of all readings PER CHEMICAL,
               then assign the cutoff for each chemical.
 
-        - Chemicals Detected:
-            - AGOC-3A:
-                - Sensors 
-            - Appluimonia:
-                - Sensors
-            - Chlorodinine:
-                - Sensors
-            - Methylosmolene:
-                - Sensors
+        - Chemicals Detected as per our cutoff:
+            - Sensor 1:
+                - AGOC-3A is detected significantly 4 times
+                - Appluimonia is detected significantly 3 times
+                - Chlorodinine is detected significantly 5 times
+                - Methylsomolene is detected significantly 1 time
+            - Sensor 2:
+                - AGOC-3A is detected significantly 7 times
+                - Appluimonia is NOT DETECTED
+                - Chlorodinine is detected significantly 2 times
+                - Methylosmolene is deteccted significantly 3 times
+            - Sensor 3:
+                - AGOC-3A is detected significantly 23 times
+                - Appluimonia is NOT DETECTED
+                - Chlorodinine is NOT DETECTED
+                - Methylosmolene is detected significantly 16 timess
+            - Sensor 4:
+                - AGOC-3A is detected significantly 34 times
+                - Appluimonia is NOT DETECTED
+                - Chlorodinine is detected significantly 9 times
+                - Methylosmolene is detected singificantly 11 times
+            - Sensor 5: 
+                - AGOC-3A is detected significantly 38 times
+                - Appluimonia is detected significantly 1 time
+                - Chlorodinine is detected significantly 6 times
+                - Methylsomolene is detected significantly 11 times
+            - Sensor 6:
+                - AGOC-3A is detected significantly 47 times
+                - Appluimonia is NOT DETECTED
+                - Chlordinine is detected significantly 1 time
+                - Methylosmolene is detected significantly 25 times
+            - Sensor 7:
+                - AGOC-3A is detected significantly 9 times
+                - Appluimonia is NOT DETECTED
+                - Chlorodinine is detected significantly 3 times
+                - Methylosmolene is detected significantly 13 times
+            - Sensor 8:
+                - AGOC-3A is detected significantly 7 times
+                - Appluimonia is detected significantly 1 time
+                - Chlorodinine is detected significantly 3 times
+                - Methylomolene is detected significantly 2 times
+            - Sensor 9:
+                - AGOC-3A is detected significantly 51 times
+                - Appluimonia is detected significantly 11 times
+                - Chlorodinine is detected significantly 1 time
+                - Methylosmolene is detected significantly 8 times
+            
 
     - Which factories are responsible for which chemical releases? Carefully describe how you determined this using 
       all the data you have available. For the factories you identified, describe any observed patterns of operation 
       revealed in the data.
-
 
 
 Data Preparation:
@@ -33,6 +70,7 @@ Data Preparation:
         - Rename column titles. The Date Time column has a whitespace at the end.
         - Need to convert the date time column to datetime in order to create visualizations.
         - Set the datetime as the index. This will make it easier to parse the data when looking to filter out certain dates.
+        - Create separate data frames for each sensor
 
     - Meteorological Data:
         - Remove 'Unnamed 3' Column
