@@ -78,3 +78,26 @@ Data Preparation:
     
     - Company/Sensor Locations:
         - Create a pandas dataframe by hand from the word document provided (MC2 Data Descriptions)
+
+
+**Justin's Homework**
+
+- NOTE: keep account of what was done during process (see Data Preparation notes above) as well as time spent 
+
+- last table in EDA\Megan_EDA_sensors_v2.ipynb, add a column for sensor coordinators
+    - bubble graph (?) similar to coordinator
+        - ie. color by sensor, size of bubble by magnitude of reading
+        - explicit points for each factory, POI
+
+- similar reading patterns but with hierarchy beginning with chemical -> sensor
+    - chemical by chemical, may need to aggregate some since there are a lot of sensors
+
+- see if absence of Appluimonia is due to faulty sensor readings, true lack of chemical, or other reason
+    - check descriptions of data, look at gaps in geo plot of chemical readings for that specifically
+
+- clean and necessary transformations on meteorological data, EDA and descriptive stats, work on incorporating into spatial analysis (bubble graph?)
+    - consider temporal patterns (wind speed throughout day, picking things up on sensors, movement of chemicals)
+    - vectorize wind speed in create graph of just weather before trying to combine
+
+- DUE: Wednesday, 20230222 @ 8:30 PM EST
+
