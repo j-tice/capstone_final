@@ -1,0 +1,50 @@
++-----------------------+----------------------------------+
+| Chemical, Sensor      |   Number of Significant Readings |
+|-----------------------+----------------------------------|
+| ('Methylosmolene', 6) |                               26 |
+| ('Methylosmolene', 3) |                               16 |
+| ('Methylosmolene', 4) |                               10 |
+| ('Methylosmolene', 5) |                               10 |
+| ('Methylosmolene', 7) |                               10 |
+| ('Methylosmolene', 9) |                                5 |
+| ('Methylosmolene', 2) |                                3 |
+| ('Methylosmolene', 1) |                                1 |
++-----------------------+----------------------------------+
+
++---------------------+----------------------------------+
+| Chemical, Sensor    |   Number of Significant Readings |
+|---------------------+----------------------------------|
+| ('Chlorodinine', 3) |                              111 |
+| ('Chlorodinine', 6) |                               87 |
+| ('Chlorodinine', 4) |                               39 |
+| ('Chlorodinine', 5) |                               25 |
+| ('Chlorodinine', 7) |                               14 |
+| ('Chlorodinine', 2) |                                3 |
+| ('Chlorodinine', 1) |                                2 |
+| ('Chlorodinine', 9) |                                1 |
++---------------------+----------------------------------+
+
++--------------------+----------------------------------+
+| Chemical, Sensor   |   Number of Significant Readings |
+|--------------------+----------------------------------|
+| ('AGOC-3A', 6)     |                               52 |
+| ('AGOC-3A', 4)     |                               29 |
+| ('AGOC-3A', 5)     |                               28 |
+| ('AGOC-3A', 3)     |                               22 |
+| ('AGOC-3A', 9)     |                               20 |
+| ('AGOC-3A', 7)     |                                6 |
+| ('AGOC-3A', 2)     |                                5 |
+| ('AGOC-3A', 1)     |                                2 |
++--------------------+----------------------------------+
+
++--------------------+----------------------------------+
+| Chemical, Sensor   |   Number of Significant Readings |
+|--------------------+----------------------------------|
+| ('Appluimonia', 3) |                              211 |
+| ('Appluimonia', 7) |                               27 |
+| ('Appluimonia', 9) |                               24 |
+| ('Appluimonia', 5) |                               13 |
+| ('Appluimonia', 6) |                                9 |
+| ('Appluimonia', 4) |                                3 |
+| ('Appluimonia', 1) |                                1 |
++--------------------+----------------------------------+
